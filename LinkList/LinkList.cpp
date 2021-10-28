@@ -8,6 +8,7 @@ struct node{
 	int length;
 };
 typedef node LinkList;
+
 void AddLinklist(LinkList *L,int data) {  //增加
 	node* p = L;
 	while (p->next!=NULL)
